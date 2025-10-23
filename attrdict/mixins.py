@@ -5,7 +5,7 @@ from abc import ABCMeta, abstractmethod
 try:
     from collections.abc import Mapping, MutableMapping, Sequence
 except ImportError:
-    from collections import Mapping, MutableMapping, Sequenceimport re
+    from collections import Mapping, MutableMapping, Sequenceimport, re
 
 import six
 
